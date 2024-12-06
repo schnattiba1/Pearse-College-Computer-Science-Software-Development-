@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        // Calling the method
+        // Invoking the methods
         programIntroduction();
         studentScore();
     }
