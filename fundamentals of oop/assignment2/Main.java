@@ -41,7 +41,7 @@ public class Main {
             System.out.println(System.lineSeparator() + "Please enter score for Maths for IT");
             int score1 = input.nextInt();
 
-            // Condition statement -> checking if the number is not a range
+            // Condition statement -> checks if the score is not a range
             if (!(score1 >= 0 && score1 <= 100)) {
                 System.out.println(System.lineSeparator() + "You entered a inappropriate range!");
                 closeProgram();
