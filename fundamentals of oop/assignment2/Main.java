@@ -43,7 +43,7 @@ public class Main {
 
             // Condition statement -> checks if the score is not a range
             if (!(score1 >= 0 && score1 <= 100)) {
-                System.out.println(System.lineSeparator() + "You entered a inappropriate range!");
+                System.out.println(System.lineSeparator() + "You entered an inappropriate range!");
                 closeProgram();
                 break;
             }
