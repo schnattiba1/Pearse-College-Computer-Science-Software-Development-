@@ -41,7 +41,7 @@ public class Main {
             System.out.println(System.lineSeparator() + "Please enter score for Maths for IT");
             int score1 = input.nextInt();
 
-            // Condition statement -> checking if the number is a range or not
+            // Condition statement -> checking if the number is not a range
             if (!(score1 >= 0 && score1 <= 100)) {
                 System.out.println(System.lineSeparator() + "You entered a inappropriate range!");
                 closeProgram();
@@ -52,7 +52,7 @@ public class Main {
             int score2 = input.nextInt();
 
             if (!(score2 >= 0 && score2 <= 100)) {
-                System.out.println(System.lineSeparator() + "You entered a inappropriate range!");
+                System.out.println(System.lineSeparator() + "You entered an inappropriate range!");
                 closeProgram();
                 break;
             }
@@ -61,7 +61,7 @@ public class Main {
             int score3 = input.nextInt();
 
             if (!(score3 >= 0 && score3 <= 100)) {
-                System.out.println(System.lineSeparator() + "You entered a inappropriate range!");
+                System.out.println(System.lineSeparator() + "You entered an inappropriate range!");
                 closeProgram();
                 break;
             }
@@ -70,7 +70,7 @@ public class Main {
             int score4 = input.nextInt();
 
             if (!(score4 >= 0 && score4 <= 100)) {
-                System.out.println(System.lineSeparator() + "You entered a inappropriate range!");
+                System.out.println(System.lineSeparator() + "You entered an inappropriate range!");
                 closeProgram();
                 break;
             }
@@ -79,7 +79,7 @@ public class Main {
             int score5 = input.nextInt();
 
             if (!(score5 >= 0 && score5 <= 100)) {
-                System.out.println(System.lineSeparator() + "You entered a inappropriate range!");
+                System.out.println(System.lineSeparator() + "You entered an inappropriate range!");
                 closeProgram();
                 break;
             }
