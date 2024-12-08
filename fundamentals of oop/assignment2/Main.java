@@ -10,7 +10,7 @@ public class Main {
 
     // closeProgram method
     public static void closeProgram() {
-        System.out.println("\nThe program is closing");
+        System.out.println("\nThe program is closing...");
     }
 
     // programIntroduction method
